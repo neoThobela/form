@@ -1,5 +1,11 @@
-<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
-  <div fxLayout="row wrap" class="header width100" fxLayoutAlign="center center" [fxShow]="true">
+<div fxLayout="column wrap" class="lightBorder height" fxLayoutGap="3em" fxLayoutAlign="center center" [fxShow]="true" fxFill>
+  <div fxLayout="row wrap" class="header width100" fxFlex="55px" fxLayoutAlign="center center" [fxShow]="true">
     <bh-toolbar class="width100"></bh-toolbar>
+  </div>
+  <div fxLayout="row wrap" class="width98 height marginbottom whiteBg" fxLayoutAlign="start stretch" [fxShow]="true">
+    <div fxLayout="column wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
+      <bh-formContainer class="width100"></bh-formContainer>
+      <bh-form class="width100"></bh-form>
+    </div>
   </div>
 </div>

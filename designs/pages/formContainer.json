@@ -46,6 +46,27 @@
         "x": 180,
         "y": 30,
         "wires": [
+            [
+                "sd_lclOnbFRAdjT2P8H"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_lclOnbFRAdjT2P8H",
+        "type": "Script",
+        "z": "sd_oJT4uX1hO5CAbp9D",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.formTopic=[\"User Details\",\"User Address\",\"Select Services\",\"View Application\",\"request Qoute\"]",
+        "functionName": "sd_lclOnbFRAdjT2P8H",
+        "category": "Function",
+        "x": 300,
+        "y": 40,
+        "wires": [
             []
         ],
         "__n_excludedFromValidation__": {},

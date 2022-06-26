@@ -1,25 +1,9 @@
-<div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+<div fxLayout="column wrap" class="width100" fxLayoutAlign="start center" [fxShow]="true">
+  <div fxLayout="row wrap" class="width98" fxLayoutAlign="space-between center" [fxShow]="true">
+    <div fxLayout="column wrap" class="Btn" fxFlex="19" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let items of page.formTopic">
       <h3>
+        {{items}}
       </h3>
     </div>
-    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-      <div>
-      </div>
-    </div>
-    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-      <div>
-      </div>
-    </div>
-    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-      <div>
-      </div>
-    </div>
-    <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-      <div>
-      </div>
-    </div>
   </div>
-  <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"></div>
 </div>

@@ -12,16 +12,17 @@ import {
 import { SDBaseService } from 'app/n-services/SDBaseService'; //_splitter_
 import { SDPageCommonService } from 'app/n-services/sd-page-common.service'; //_splitter_
 import { __NEU_ServiceInvokerService__ } from 'app/n-services/service-caller.service'; //_splitter_
+import { FormControl, Validators, FormBuilder } from '@angular/forms'; //_splitter_
 //append_imports_end
 
 @Component({
-  selector: 'bh-formContainer',
-  templateUrl: './formContainer.template.html',
+  selector: 'bh-form',
+  templateUrl: './form.template.html',
   providers: [
     //appendnew_element_providers
   ],
 })
-export class formContainerComponent {
+export class formComponent {
   page: any = { dep: {} };
   constructor(
     private __page_injector__: Injector,
@@ -30,6 +31,7 @@ export class formContainerComponent {
   ) {
     this.__page_injector__.get(SDPageCommonService).addPageDefaults(this.page);
     this.registerListeners();
+    this.page.dep.FormBuilder = this.__page_injector__.get(FormBuilder); //FormBuilder
     //appendnew_element_inject
   }
 
@@ -38,7 +40,7 @@ export class formContainerComponent {
       .get(SDPageCommonService)
       .constructFlowObject(this);
     {
-      this.sd_chjVN73NnryGKM5C(bh);
+      this.sd_BFs3bk9y1Z53A6EQ(bh);
     }
   }
 
@@ -50,42 +52,24 @@ export class formContainerComponent {
     //append_listeners
   }
 
-  sd_chjVN73NnryGKM5C(bh) {
+  sd_BFs3bk9y1Z53A6EQ(bh) {
     try {
-      bh = this.sd_WhJMmYre7I5tHFW6(bh);
-      //appendnew_next_sd_chjVN73NnryGKM5C
+      bh = this.sd_Pp72lbPjZpBzU27I(bh);
+      //appendnew_next_sd_BFs3bk9y1Z53A6EQ
       return bh;
     } catch (e) {
-      return this.errorHandler(bh, e, 'sd_chjVN73NnryGKM5C');
+      return this.errorHandler(bh, e, 'sd_BFs3bk9y1Z53A6EQ');
     }
   }
 
-  //appendnew_flow_formContainerComponent_start
+  //appendnew_flow_formComponent_start
 
-  sd_WhJMmYre7I5tHFW6(bh) {
+  sd_Pp72lbPjZpBzU27I(bh) {
     try {
-      bh = this.sd_lclOnbFRAdjT2P8H(bh);
-      //appendnew_next_sd_WhJMmYre7I5tHFW6
+      //appendnew_next_sd_Pp72lbPjZpBzU27I
       return bh;
     } catch (e) {
-      return this.errorHandler(bh, e, 'sd_WhJMmYre7I5tHFW6');
-    }
-  }
-
-  sd_lclOnbFRAdjT2P8H(bh) {
-    try {
-      const page = this.page;
-      page.formTopic = [
-        'User Details',
-        'User Address',
-        'Select Services',
-        'View Application',
-        'request Qoute',
-      ];
-      //appendnew_next_sd_lclOnbFRAdjT2P8H
-      return bh;
-    } catch (e) {
-      return this.errorHandler(bh, e, 'sd_lclOnbFRAdjT2P8H');
+      return this.errorHandler(bh, e, 'sd_Pp72lbPjZpBzU27I');
     }
   }
 
@@ -111,5 +95,5 @@ export class formContainerComponent {
       throw e;
     }
   }
-  //appendnew_flow_formContainerComponent_Catch
+  //appendnew_flow_formComponent_Catch
 }

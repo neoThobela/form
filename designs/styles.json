@@ -2,8 +2,15 @@
     "classes": [
         "width100",
         "header",
+        "height",
         "whiteText",
+        "whiteBg",
         "headerBtn",
-        "width95"
+        "Btn",
+        "lightBorder",
+        "width95",
+        "width98",
+        "width50",
+        "marginbottom"
     ]
 }

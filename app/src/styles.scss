@@ -18,18 +18,41 @@ body{
     width:100%;
 }
 .header{
-    height:55px;
+    // height:55px;
     background-color:$gray;
+}
+.height{
+    height:calc(100vh - (55px + 4em) );
 }
 .whiteText{
     color:$white;
+}
+.whiteBg{
+    background-color: $white;
 }
 .headerBtn{
     border:1px solid $pink;
     color:$white;
     background-color: $pink;
-
+}
+.Btn{
+    border:1px solid $pink;
+    color:$pink;
+    background-color: white;
+    font-weight:100;
+}
+.lightBorder{
+    background-color:$darkWhite;
 }
 .width95{
     width:95%;
+}
+.width98{
+    width:98%;
+}
+.width50{
+    width:50%;
+}
+.marginbottom{
+    margin-bottom:1em;
 }
