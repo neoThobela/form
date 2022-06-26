@@ -40,11 +40,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "toolItems",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_xcdrHcByqgWHv4Ra",
         "category": "Function",
         "x": 180,
         "y": 30,
+        "wires": [
+            [
+                "sd_uqauoJGDzzUHeNjJ"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_uqauoJGDzzUHeNjJ",
+        "type": "Script",
+        "z": "sd_2MaYZyEaDKZg8R66",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.toolItems=[\"About Us\",\"Services\",\"Contact Us\"];",
+        "functionName": "sd_uqauoJGDzzUHeNjJ",
+        "category": "Function",
+        "x": 360,
+        "y": 40,
         "wires": [
             []
         ],

@@ -57,6 +57,12 @@
                 "_value": "true",
                 "_type": "kv",
                 "_attrDef": "p"
+            },
+            {
+                "_key": "fxFill",
+                "_value": "fxFill",
+                "_type": "a",
+                "_attrDef": "c"
             }
         ],
         "68990ddb-f99b-1b75-1a22-75aa26acf35d": {
@@ -80,6 +86,7 @@
                 {
                     "_key": "class",
                     "_value": [
+                        "header",
                         "width100"
                     ],
                     "_type": "dav",
@@ -105,13 +112,13 @@
                 },
                 {
                     "_key": "layoutAlign",
-                    "_value": "start",
+                    "_value": "center",
                     "_type": "a",
                     "_attrDef": "p"
                 },
                 {
                     "_key": "pLayoutAlign",
-                    "_value": "stretch",
+                    "_value": "center",
                     "_type": "a",
                     "_attrDef": "p"
                 },

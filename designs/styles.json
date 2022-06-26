@@ -1,5 +1,9 @@
 {
     "classes": [
-        "width100"
+        "width100",
+        "header",
+        "whiteText",
+        "headerBtn",
+        "width95"
     ]
 }

@@ -15,13 +15,13 @@ import { __NEU_ServiceInvokerService__ } from 'app/n-services/service-caller.ser
 //append_imports_end
 
 @Component({
-  selector: 'bh-toolbar',
-  templateUrl: './toolbar.template.html',
+  selector: 'bh-formContainer',
+  templateUrl: './formContainer.template.html',
   providers: [
     //appendnew_element_providers
   ],
 })
-export class toolbarComponent {
+export class formContainerComponent {
   page: any = { dep: {} };
   constructor(
     private __page_injector__: Injector,
@@ -38,7 +38,7 @@ export class toolbarComponent {
       .get(SDPageCommonService)
       .constructFlowObject(this);
     {
-      this.sd_xT6v5n0J6G3kpy2h(bh);
+      this.sd_chjVN73NnryGKM5C(bh);
     }
   }
 
@@ -50,37 +50,24 @@ export class toolbarComponent {
     //append_listeners
   }
 
-  sd_xT6v5n0J6G3kpy2h(bh) {
+  sd_chjVN73NnryGKM5C(bh) {
     try {
-      bh = this.sd_xcdrHcByqgWHv4Ra(bh);
-      //appendnew_next_sd_xT6v5n0J6G3kpy2h
+      bh = this.sd_WhJMmYre7I5tHFW6(bh);
+      //appendnew_next_sd_chjVN73NnryGKM5C
       return bh;
     } catch (e) {
-      return this.errorHandler(bh, e, 'sd_xT6v5n0J6G3kpy2h');
+      return this.errorHandler(bh, e, 'sd_chjVN73NnryGKM5C');
     }
   }
 
-  //appendnew_flow_toolbarComponent_start
+  //appendnew_flow_formContainerComponent_start
 
-  sd_xcdrHcByqgWHv4Ra(bh) {
+  sd_WhJMmYre7I5tHFW6(bh) {
     try {
-      this.page.toolItems = [];
-      bh = this.sd_uqauoJGDzzUHeNjJ(bh);
-      //appendnew_next_sd_xcdrHcByqgWHv4Ra
+      //appendnew_next_sd_WhJMmYre7I5tHFW6
       return bh;
     } catch (e) {
-      return this.errorHandler(bh, e, 'sd_xcdrHcByqgWHv4Ra');
-    }
-  }
-
-  sd_uqauoJGDzzUHeNjJ(bh) {
-    try {
-      const page = this.page;
-      page.toolItems = ['About Us', 'Services', 'Contact Us'];
-      //appendnew_next_sd_uqauoJGDzzUHeNjJ
-      return bh;
-    } catch (e) {
-      return this.errorHandler(bh, e, 'sd_uqauoJGDzzUHeNjJ');
+      return this.errorHandler(bh, e, 'sd_WhJMmYre7I5tHFW6');
     }
   }
 
@@ -106,5 +93,5 @@ export class toolbarComponent {
       throw e;
     }
   }
-  //appendnew_flow_toolbarComponent_Catch
+  //appendnew_flow_formContainerComponent_Catch
 }
